@@ -1,0 +1,94 @@
+*{
+  margin: 20px;
+}
+
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #ffeeee; 
+}
+main {
+  background-color: #FFF9F9;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px #FFE3E3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* add later: left and right margins half when on mobile (5%) */
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#profile {
+  overflow: hidden;
+}
+
+/* STYLE TEXT */
+h1 {
+  color: #3A3131;
+  font-family: "Mochiy Pop P One", serif;
+}
+h3 {
+  color: #3A3131;
+  font-family: "Mochiy Pop P One", serif;
+}
+p {
+  color: #3A3131;
+  font-family: "Quicksand", serif;
+  font-weight: 600;
+}
+
+/* STYLE IMAGES */
+.portfolioImages {
+  max-width: 25%;
+  max-height: 25%;
+  border-radius: 10%;
+}
+#portfolioImages {
+  text-align: center;
+}
+#profilePhoto {
+  max-width: 25%;
+  max-height: 25%;
+  border-radius: 100%;
+  border: 10px solid #FFAAAA;
+  float: left;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 10px;
+  text-align: left;
+}
+li {
+  display: inline;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
+}
+li a {
+  text-decoration: none;
+  color: #3A3131;
+  font-family: "Quicksand", serif;
+  font-weight: 600;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #FFE3E3;
+  border-radius: 10px;
+}
+#button:hover {
+  background-color: #FFAAAA;
+  border-radius: 10px;
+}
+#search {
+  background-color: #FFE3E3;
+  text-align: center;
+}
